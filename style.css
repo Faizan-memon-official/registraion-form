@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+label p {
+    display: inline-block;
+    width: 150px;
+}
+
+fieldset {
+    width: max-content;
+    margin: 80px auto;
+    padding: 20px 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 6px 4px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 255, 128);
+}
+
+input:focus {
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgb(0, 241, 129) 0px 54px 55px, rgb(0, 255, 157) 0px -12px 30px, rgba(0, 250, 187, 0.979) 0px 4px 6px, rgb(0, 255, 157) 0px 12px 13px, rgb(0, 255, 149) 0px -3px 5px;
+    border-bottom: 2px solid rgb(0, 238, 167);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+
+legend {
+    border: 1px solid rgb(0, 253, 106);
+    padding: 10px 6px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 106);
+}
+
+fieldset {
+    border: 1px solid rgb(0, 255, 128);
+    border-radius: 10px;
+    box-shadow: rgba(0, 255, 149, 0.986) 0px 30px 60px -12px, rgb(0, 255, 136) 0px 18px 36px -18px;
+    background-color: rgb(0, 255, 128);
+}
+
+button {
+    padding: 10px 6px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 250, 112, 0.993);
+    background-color: rgb(45, 167, 116);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    /* display: block;
+    width: 100px; */
+    /* float: right; */
+    /* margin: 0 auto; */
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(1, 255, 179);
+    transition: all .5s ease-out;
+    color: rgb(0, 0, 0)
+}
+
+input[type="radio"]:focus {
+    box-shadow: none;
+}
+
+#password {
+    background-image: url("./assets/eye.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+    width: 170px;
+}
+
+
+/*{
+    border: 1px solid lightgray;
+    width: 400px;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+img {
+    width: 400px;
+}
+
+#originalPrice {
+    text-decoration: line-through;
+}
+
+.fa-heart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+     width: 30px; 
+}
+
+.cardImg {
+    position: relative;
+}
+
+.fa-heart:hover {
+    color: red;
+     background-color: red; 
+    transition: all .5s ease;
+}
+
+nav {
+    float: right;
+    padding: 10px 20px;
+
+     1st way 
+     position: fixed;
+    background-color: white;
+    width: 100%; 
+}
+
+nav ul li {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+p {
+    float: left;
+     margin-top: 80px; 
+}/*
